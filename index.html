@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7 Assignment: Animations & LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Web Page</h1>
+        <p>Animations, Transitions, and Local Storage</p>
+    </header>
+
+    <main>
+        <section class="animation-section">
+            <h2>Image Animation</h2>
+            <img id="animatedImage" src="https://via.placeholder.com/150/FFD700/000000?text=JS+Magic" alt="Placeholder Image">
+            <button id="toggleAnimationBtn">Toggle Image Animation</button>
+        </section>
+
+        <section class="preferences-section">
+            <h2>User Preferences</h2>
+            <div class="preference-item">
+                <input type="checkbox" id="autoPlayAnimationCheckbox">
+                <label for="autoPlayAnimationCheckbox">Play animation automatically on load</label>
+            </div>
+            <button id="clearPreferencesBtn">Clear Saved Preferences</button>
+            <p id="localStorageStatus"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name - Week 7 Assignment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
